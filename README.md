@@ -2,6 +2,7 @@
 
 ## 2. Запустить через Docker Compose (всё поднимется автоматически)
 Для запуска понадобится docker: https://www.docker.com/
+
 docker-compose up -d --build
 
 ## 3. Открыть в браузере
