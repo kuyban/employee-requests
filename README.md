@@ -10,9 +10,13 @@ docker-compose up -d --build
 
 #### Для Adminer
 -Движок: PostgreSQL
+
 -Сервер: db
+
 -Имя пользователя: postgres
+
 -Пароль: postgres
+
 -База данныхм: emp_req
 
 ## 4. Сгенерировать тестовые данные
