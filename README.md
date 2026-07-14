@@ -9,15 +9,11 @@ docker-compose up -d --build
 ### http://localhost:8080 (Adminer - управление БД)
 
 #### Для Adminer
--Движок: PostgreSQL
-
--Сервер: db
-
--Имя пользователя: postgres
-
--Пароль: postgres
-
--База данныхм: emp_req
+- Движок: PostgreSQL
+- Сервер: db
+- Имя пользователя: postgres
+- Пароль: postgres
+- База данныхм: emp_req
 
 ## 4. Сгенерировать тестовые данные
 docker-compose exec app uv run python -m app.generate_data
